@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Golos';
+  font-weight: 900;
+  src: url('GolosText-Black.ttf') format('truetype'),
+    url('GolosText-Black.woff') format('woff'),
+    url('GolosText-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Golos';
+  font-weight: 700;
+  src: url('GolosText-Bold.ttf') format('truetype'),
+    url('GolosText-Bold.woff') format('woff'),
+    url('GolosText-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Golos';
+  font-weight: 500;
+  src: url('GolosText-Medium.ttf') format('truetype'),
+    url('GolosText-Medium.woff') format('woff'),
+    url('GolosText-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Golos';
+  font-weight: 400;
+  src: url('GolosText-Regular.ttf') format('truetype'),
+    url('GolosText-Regular.woff') format('woff'),
+    url('GolosText-Regular.woff2') format('woff2');
+}
