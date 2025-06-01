@@ -14,13 +14,13 @@
     <div class="header__search-container">
       <img class="header__logo" src="https://hommet.ru/media/hommet-logo.svg" alt="Логотип">
       <form class="header__form">
-        <button class="header__button hover__link" type="button">Каталог</button>
+        <button class="header__button hover__link" type="button"></button>
         <input id="input__search" class="header__input" type="text" placeholder="Поиск...">
         <button class="header__form-button hover__link" type="button"><img class="header__form-button-icon"
             src="https://hommet.ru/static/images/search-icon.svg" alt="Поиск"></button>
       </form>
       <p class="header__number">+7 (499) 685-01-61</p>
-      <button class="header__number-button hover__link" type="button">Запросить звонок</button>
+      <button class="header__number-button hover__link" type="button"></button>
     </div>
     <div class="header__links-container">
       <ul class="header__links">
@@ -46,6 +46,21 @@
       <p class="header__counter">0</p>
     </div>
   </header>
+
+  <section class="popup">
+    <div class="overlay"></div>
+    <div class="popup__container">
+      <h2 class="popup__title">Заказать обратный звонок</h2>
+      <button class="popup__close-button hover__link" type="button">Закрыть</button>
+      <form class="popup__form">
+        <input id="input__name" class="popup__input" type="text" placeholder="Как Вас зовут">
+        <input id="input__phone" class="popup__input" type="text" placeholder="Ваш Телефон">
+        <button class="form__button hover__link" type="button">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
 </body>
 
 </html>
