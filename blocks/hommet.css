@@ -1,0 +1,96 @@
+.hommet {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hommet__container-image {
+  min-width: 1200px;
+  width: 100%;
+  min-height: 500px;
+  height: 100%;
+  background-image: url('https://hommet.ru/media/uploads/mainimg.png');
+  background-position: bottom;
+  margin-bottom: 0;
+  background-size: cover;
+}
+
+.hommet__title {
+  width: 320px;
+  line-height: 52px;
+  font-size: 45px;
+  font-weight: 500;
+  margin-left: 52px;
+  text-transform: uppercase;
+  margin-top: 130px;
+}
+
+.hommet__subtitle {
+  width: 250px;
+  margin: 35px 0 30px 52px;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hommet__button {
+  width: 170px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  color: rgba(223, 9, 35);
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.hommet__container-cards {
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.hommet__card {
+  width: 469px;
+  padding-left: 30px;
+}
+
+.hommet__card:first-child {
+  background-color: rgba(223, 9, 35);
+}
+
+.hommet__card:last-child {
+  background-color: rgba(53, 53, 53);
+}
+
+.hommet__card-title {
+  width: 300px;
+  margin: 30px 0 25px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hommet__card-subtitle {
+  width: 260px;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hommet__card-button {
+  width: 150px;
+  height: 45px;
+  margin: 30px 0;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  background: transparent;
+  border: none;
+  color: white;
+}

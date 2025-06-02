@@ -18,6 +18,10 @@
   position: relative;
 }
 
+.page__hommet {
+  margin-bottom: 100px;
+}
+
 .hover__link:hover {
   opacity: 0.8;
   cursor: pointer;
