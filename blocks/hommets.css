@@ -1,0 +1,63 @@
+.hommets {
+  max-width: 1290px;
+  width: 100%;
+}
+
+.hommets__title {
+  width: 340px;
+  margin-bottom: 25px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hommets__title-small {
+  width: 340px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.hommets__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 223px));
+  grid-template-rows: repeat(2, minmax(150px, 338px));
+  gap: 35px 20px;
+}
+
+.hommets__card {
+  width: 223px;
+}
+
+.hommets__card-image {
+  width: 223px;
+  height: 172px;
+}
+
+.hommets__card-container {
+  width: 223px;
+}
+
+.hommets__card-text {
+  width: 183px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 0 15px;
+}
+
+.hommets__card-button {
+  width: 183px;
+  height: 48px;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  background: transparent;
+  border: none;
+  color: white;
+  background-image: url('https://hommet.ru/media/uploads/red-button.svg');
+  background-position: right;
+  background-size: cover;
+}

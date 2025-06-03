@@ -1,0 +1,91 @@
+.cards {
+  max-width: 1210px;
+  width: 100%;
+}
+
+.cards__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+.card {
+  max-width: 380px;
+  width: 100%;
+  height: 440px;
+  color: white;
+}
+
+.card:first-child {
+  background-color: rgba(53, 53, 53);
+}
+
+.card:nth-of-type(2) {
+  background-color: rgba(223, 9, 35);
+}
+
+.card:nth-of-type(3) {
+  background-color: rgba(53, 53, 53);
+}
+
+.card:nth-of-type(5) {
+  color: black;
+}
+
+.card__title {
+  width: 256px;
+  margin: 25px 0 15px 25px;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card__title-small {
+  width: 158px;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card__subtitle {
+  width: 205px;
+  margin-bottom: 63px;
+  margin-left: 25px;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card__button {
+  width: 77px;
+  height: 20px;
+  margin-left: 25px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.card__image {
+  width: 306px;
+  height: 410px;
+}
+
+.card__form {
+  width: 256px;
+}
+
+.card__input {
+  all: unset;
+  width: 230px;
+  height: 40px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 25px;
+}
