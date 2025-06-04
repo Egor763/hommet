@@ -1,0 +1,35 @@
+.cooperation {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #df0923;
+  color: white;
+}
+
+.cooperation__title {
+  width: 295px;
+  margin-bottom: 25px;
+  margin-left: 82px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cooperation__title-small {
+  width: 295px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.cooperation__logs {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 82px;
+}
+
+.cooperation__logo {
+  width: 255px;
+  height: 47px;
+}

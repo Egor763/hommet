@@ -1,0 +1,51 @@
+.geography {
+  width: 100%;
+  position: relative;
+}
+
+.geography__title {
+  width: 370px;
+  margin-left: 82px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.geography__title-small {
+  width: 370px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.geography__subtitle {
+  width: 320px;
+  margin: 25px 0 40px 82px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.geography__button {
+  width: 140px;
+  height: 27px;
+  position: absolute;
+  top: 185px;
+  left: 82px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+}
+
+.geography__button-red {
+  width: 62px;
+  color: #df0923;
+}
+
+.geography__image {
+  width: 928px;
+  height: 547px;
+  margin-left: 82px;
+}

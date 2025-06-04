@@ -26,6 +26,10 @@
   margin: 100px 0;
 }
 
+.page__cooperation {
+  margin: 100px 0;
+}
+
 .hover__link:hover {
   opacity: 0.8;
   cursor: pointer;

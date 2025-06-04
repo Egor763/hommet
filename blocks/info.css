@@ -14,6 +14,7 @@
   line-height: 35px;
   font-size: 30px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .info__title-small {
@@ -91,4 +92,9 @@
   background: transparent;
   border: 1px solid black;
   transform: skew(-25deg);
+}
+
+.info__container-button-small:focus {
+  background: #df0923;
+  border: 1px solid #df0923;
 }
