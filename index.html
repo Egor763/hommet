@@ -249,15 +249,39 @@
     <img class="geography__image" src="https://hommet.ru/media/uploads/2024/11/04/cart.svg" alt="Карта России">
   </section>
 
+  <section class="dealer page__dealer">
+    <h2 class="dealer__title">Стать <br><span class="dealer__title-small">дилером</span></h2>
+    <p class="dealer__subtitle">Заполните форму, и наши специалисты свяжуться с вами в ближайший час</p>
+    <form class="dealer__form">
+      <div class="form__container">
+        <input id="input__name" class="dealer__input" type="text" placeholder="Имя*">
+        <input id="input__phone" class="dealer__input" type="tel" placeholder="Телефон*">
+        <input id="input__email" class="dealer__input" type="email" placeholder="e-mail*">
+        <div class="dealer__button-container">
+          <button class="dealer__button" type="button"></button>
+          <p class="dealer__button-text hover__link">Нажимая на кнопку, вы даете согласие на обработку персональных
+            данных и
+            соглашаетесь с нашей политикой конфиденциальности</p>
+        </div>
+      </div>
+      <div class="form__container">
+        <input id="input__comment" class="dealer__input-comment" type="text" placeholder="Комментарий">
+        <button class="form__button hover__link">Отправить</button>
+      </div>
+    </form>
+  </section>
+
+
+
   <section class="popup">
     <div class="overlay"></div>
     <div class="popup__container">
       <h2 class="popup__title">Заказать обратный звонок</h2>
-      <button class="popup__close-button hover__link" type="button">Закрыть</button>
+      <button class="close__button hover__link" type="button">Закрыть</button>
       <form class="popup__form">
         <input id="input__name" class="popup__input" type="text" placeholder="Как Вас зовут">
         <input id="input__phone" class="popup__input" type="text" placeholder="Ваш Телефон">
-        <button class="form__button hover__link" type="button">Отправить</button>
+        <button class="popup__button hover__link" type="button">Отправить</button>
       </form>
     </div>
   </section>

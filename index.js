@@ -1,6 +1,6 @@
 const headerOpenPopupButton = document.querySelector('.header__number-button');
 const popup = document.querySelector('.popup');
-const closePopupButton = document.querySelector('.popup__close-button');
+const closePopupButton = document.querySelector('.close__button');
 
 function openPopup() {
   popup.classList.add('popup__active');

@@ -1,0 +1,99 @@
+.dealer {
+  width: 100%;
+  background: rgba(245, 245, 245);
+}
+
+.dealer__title {
+  width: 120px;
+  margin: 70px 0 25px 82px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.dealer__title-small {
+  width: 120px;
+  line-height: 35px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.dealer__subtitle {
+  width: 600px;
+  margin-left: 82px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dealer__form {
+  width: 1100px;
+  margin: 15px 0 80px 82px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__container {
+  width: 452px;
+}
+
+.dealer__input {
+  all: unset;
+  width: 452px;
+  height: 40px;
+  margin-bottom: 19px;
+  padding-left: 20px;
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.dealer__button-container {
+  width: 462px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dealer__button {
+  width: 16px;
+  height: 16px;
+  background: transparent;
+  border: 1px solid #df0923;
+}
+
+.dealer__button-text {
+  width: 437px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dealer__input-comment {
+  all: unset;
+  width: 452px;
+  height: 99px;
+  margin-bottom: 19px;
+  padding-left: 20px;
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.form__button {
+  width: 150px;
+  height: 40px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+  color: white;
+  background-image: url('https://hommet.ru/media/uploads/red-button.svg');
+  background-size: cover;
+  background-position: right;
+}
