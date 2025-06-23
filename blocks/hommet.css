@@ -48,23 +48,18 @@
 }
 
 .hommet__container-cards {
-  width: 920px;
+  width: 1100px;
   display: flex;
   justify-content: space-between;
   color: white;
+  background-image: url('https://hommet.ru/media/uploads/back-but-2.jpg');
+  background-size: cover;
+  background-position: top;
 }
 
 .hommet__card {
   width: 469px;
   padding-left: 30px;
-}
-
-.hommet__card:first-child {
-  background-color: rgba(223, 9, 35);
-}
-
-.hommet__card:last-child {
-  background-color: rgba(53, 53, 53);
 }
 
 .hommet__card-title {
